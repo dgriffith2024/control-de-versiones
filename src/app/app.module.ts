@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 
+// Components
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [AppComponent, LayoutComponent],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  providers: [FooterComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
