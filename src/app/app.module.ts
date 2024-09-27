@@ -7,7 +7,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BotonesSesionComponent } from './botones-sesion/botones-sesion.component';
 import { BadgeComponent } from './badge/badge.component';
-
+//hola
 @NgModule({
   declarations: [AppComponent, LayoutComponent, BadgeComponent, NavbarComponent, BotonesSesionComponent],
   imports: [BrowserModule, AppRoutingModule],
