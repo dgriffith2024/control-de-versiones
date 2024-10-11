@@ -12,4 +12,11 @@ export class PreguntasFrecuentesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  holaFunction(){
+    const arregloSaludos = ['hola', 'saludos'];
+
+    const test = arregloSaludos.filter(item => item === 'hola');
+    console.log(test);
+  }
+
 }
