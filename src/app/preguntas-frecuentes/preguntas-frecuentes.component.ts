@@ -13,7 +13,10 @@ export class PreguntasFrecuentesComponent implements OnInit {
   }
 
   holaFunction(){
-    console.log('se supone que deberia funciona');
+    const arregloSaludos = ['hola', 'saludos'];
+
+    const test = arregloSaludos.filter(item => item === 'hola');
+    console.log(test);
   }
 
 }
