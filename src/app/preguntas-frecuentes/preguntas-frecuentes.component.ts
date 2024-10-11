@@ -12,4 +12,8 @@ export class PreguntasFrecuentesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  holaFunction(){
+    console.log('se supone que deberia funciona');
+  }
+
 }
